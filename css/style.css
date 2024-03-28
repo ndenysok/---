@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin:0 ;
+    padding: 0;
+}
+a{
+    text-decoration: none;color:#000 ;
+}
+button{
+    border: none;padding: 10px 15px;border-radius: 10px;
+    transition: all .85 linear;
+    &:hover{
+        cursor: pointer;
+    }
+    &:active{
+        scale:.85 ;
+    }
+}
+p{
+    font-size:18px ;
+}
+h1,h2,h3,h4,h5{
+    font-size: 22px;
+}
+section,header,main,aside,footer{
+    display: flex;
+    flex-direction: column;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
